@@ -6,10 +6,28 @@ This project is an implementation of the CHIP-8 emulator written in C, using the
 
 The project emulates the CHIP-8 architecture and provides basic graphical output to a screen, along with keyboard or button input handling for user interaction.
 
+
+### Media
+
+Below are some images related to the **ESP32 Chip-8 Emulator** project:
+
+- **Controller Image:**
+
+  ![Controller](media/controller.jpg)
+
+  This image showcases the wireless controller used for the game interaction in the ESP32 port of the Chip-8 emulator.
+
+- **Screen and Buzzer Image:**
+
+  ![Screen and Buzzer](media/screen+buzzer.jpg)
+
+  This image displays the setup with the ESP32 connected to a screen and a buzzer, representing the visual and audio output for the Chip-8 emulator.
+
 ## Features
 
 - Emulates the CHIP-8 architecture using C in the Arduino IDE
 - Supports executing CHIP-8 programs (ROM files)
+- Provides a tone of 60Hz emulating the Chip-8's sound.
 - Provides pixel rendering on a simple display (e.g., LED matrix, TFT screen)
 - Input handling using hardware buttons or an Arduino-compatible keyboard
 - Customizable key mappings and screen size
